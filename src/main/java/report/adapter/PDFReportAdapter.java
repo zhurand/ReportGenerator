@@ -1,3 +1,5 @@
+package report.adapter;
+
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -14,6 +16,7 @@ import com.itextpdf.kernel.pdf.PdfDocument;
 import com.itextpdf.kernel.pdf.PdfWriter;
 import com.itextpdf.layout.Document;
 import com.itextpdf.layout.element.Paragraph;
+import report.ReportGenerator;
 
 public class PDFReportAdapter implements ReportGenerator {
     // Ссылка на файл шрифта с поддержкой кириллицы

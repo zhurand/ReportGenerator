@@ -1,3 +1,7 @@
+import report.ReportGenerator;
+import report.adapter.ExcelReportAdapter;
+import report.adapter.PDFReportAdapter;
+
 import java.util.List;
 import java.util.Map;
 import java.io.IOException;

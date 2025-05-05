@@ -1,11 +1,14 @@
+package report.adapter;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import report.ReportGenerator;
 
-public class ExcelReportAdapter implements  ReportGenerator {
+public class ExcelReportAdapter implements ReportGenerator {
     @Override
     public void generateReport(String fileName, List<Map<String, String>> data) throws IOException {
 
